@@ -100,18 +100,74 @@
    <form action="/register" method="get">
     <p>
     <label for="userName">UserName:</label>
-    <input type="text" id="userName" name="userName">
+    <input type="text" id="userName" name="userName" placeholder="Enter Your Name" required>
     </p>
     <p>
     <label for="email">Email:</label>
-    <input type="email" id="email" name="email">
+    <input type="email" id="email" name="email" placeholder="Enter the Email" required>
     </p>
     <p>
     <label for="pass">Password</label>
-    <input type="password" id="pass" name="password">
+    <input type="password" id="pass" name="password" placeholder="Password" required maxlength="12" minlength="5">
     </p>
     <button type="submit">submit</button>
    </form>
+  <hr> 12/11/25
+    <fieldset>
+      <legend>form fill</legend>
+      <form action="/register" method="get">
+    <p>
+    <label for="userName">UserName:</label>
+    <input type="text" id="userName" name="userName" placeholder="Enter Your Name" required>
+    </p>
+    <p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter the Email" required>
+    </p>
+    <p>
+    <label for="pass">Password</label>
+    <input type="password" id="pass" name="password" placeholder="Password" required maxlength="12" minlength="5">
+    </p>
+    <p>
+      <label for="skills">Select Your Skills:</label>
+      <select name="language" id="skills">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JS</option>
+        <option value="react">REACT</option>
+        <option value="nodejs">NODEJS</option>
+      </select>
+    </p>
+
+    <button type="submit">submit</button>
+   </form>
+    </fieldset>
+
+   <hr>
+   <label for="">Upload file</label>
+   <input type="file">
+   
+   <audio controls>
+    <source src="" type="audio/mpeg"/>
+   </audio>
+
+   <video controls>
+    <source />
+   </video>
+<p>
+   <label for="male">Select the place</label>
+   <input type="radio" name="Gender" id="male" value="male">
+   <label for="">female</label>
+   <input type="radio" name="Gender" id="female" value="female">
+   <label for="female">female</label>
+</p>
+
+<section>
+
+</section>
+<article>
+  
+</article>
 
   </body>
  </html>
