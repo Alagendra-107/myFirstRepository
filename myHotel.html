@@ -15,16 +15,16 @@
         </section>
         <nav align="right">
             <a href="#home">Home</a>
-            <a href="#about">AboutUs</a>
+            <a href="#contact">AboutUs</a>
             <a href="#contact">Contact us</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#cooking">Cooking Reference</a>
         </nav>
     </header>
     <br />
     <br />
     <hr>
     <!-- main component -->
-    <main align="center" >
+    <main align="center" id="home" >
         <h2>Please Your Order</h2>
         <table border="1" align="center"  cellpadding="8" cellspacing="15">
             <thead>
@@ -68,7 +68,7 @@
         <br>
         <br>
         <hr>
-        <article align="left">
+        <article align="left" id="cooking">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/BpVmNB3eKdM?si=ZYohKLxcjIW6ou76"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -79,7 +79,7 @@
     <br>
     <hr>
     <!-- footer side -->
-    <footer>
+    <footer id="contact">
         <fieldset>
             <legend>Contact US</legend>
             <form action="/register" method="get">
@@ -98,10 +98,10 @@
                 </p>
                 <!-- feedback section -->
                 <section>
-                    <label for="">Your FeedBack </label>
+                    <label for="feed">Your FeedBack </label>
                     <br>
                     <br>
-                    <textarea name="FeedBack" rows="5" cols="30" placeholder="Enter Your FeedBack"></textarea>
+                    <textarea name="FeedBack" rows="5" cols="30" id="feed" placeholder="Enter Your FeedBack"></textarea>
                 </section>
                 <button type="submit">submit</button>
             </form>
