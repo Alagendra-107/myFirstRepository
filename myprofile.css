@@ -1,3 +1,96 @@
-.contact{
+body{
+    margin: 10px;
+    padding: 10px;
+    /* background-image: url("https://m.media-amazon.com/images/I/816kCO93-pL._AC_UF894,1000_QL80_.jpg"); */
+    background-color:#ffe3cd;
+    background-repeat: no-repeat;
+    background-size: cover;
+   color: navy;
+}
+
+.section_header > img{
+    width: 100px;
+    height: 100px;
+    border-radius:100px;
+
+}
+.header_name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    font-weight:bolder;
+
+}
+.heading_subhead{
+    font-weight: bold;
+    color: #C71585;
+    font-size:x-large;
+
     
+}
+
+.section_contact>span{
+    font-weight: bolder;
+    flex-wrap: wrap;
+    margin: 200px;
+    color: rgb(97, 130, 30);
+}
+
+.career_container>p{
+   color: rgb(23, 114, 105);
+   font-size: large;
+   font-weight: bold;
+}
+
+h3{
+    font-size: 25px;
+    text-decoration: none;   
+}
+h3:hover{
+    font-size: 28px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.section_skills>ul{
+    color: #0d5802;
+}
+.section_education table {
+    width: 50%%;
+    border-collapse: collapse;  
+}
+
+.section_education th,td {
+    border: 1px solid black;     
+}
+
+.section_education th {
+    background-color: #dde00f; 
+}
+
+.section_education td{
+    color:#2e2923;
+}
+
+.section_orderline{
+   color:brown;
+   font-size: 18px;
+    font-weight: bold;
+
+}
+.section_achiev>h2{
+    color: orangered;
+}
+.section_achiev>h3{
+    color: teal;
+}
+.section_achiev>ul{
+    color: rgb(91, 0, 114);
+    font-size: large;
+    font-weight: bold;
+}
+.section_achiev>p{
+    color: rgb(91, 0, 114);
+    font-size: large;
+    font-weight: bold;
+
 }

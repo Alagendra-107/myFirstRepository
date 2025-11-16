@@ -1,0 +1,14 @@
+body{
+    /* 2*16=32 */
+    font-size: 2rem; 
+}
+
+#pxunit{
+    /* 2*rem 32 =64 */
+    font-size: 2em;
+}
+
+#child2{
+    /* 2*em 64=128 */
+   font-size: 2em;
+}
