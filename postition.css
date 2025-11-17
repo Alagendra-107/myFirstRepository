@@ -1,0 +1,60 @@
+body{
+    margin: 2px;
+    padding: 2px;
+}
+
+
+.static{
+    position: static;
+
+}
+/* relative */
+.outer_relative{
+    border: 2px solid blue;
+    height: 400px;
+    width: 400px;
+}
+.inner_relative{
+    border-color: greenyellow;
+    height: 160px;
+    width: 160px;
+    background-color: green;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+/* absolute */
+.absolute_outer{
+    border: 2px solid violet;
+     height: 400px;
+    width: 400px;
+    position: relative;
+}
+.absolute_inner{
+    border: 2px solid brown;
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    top: 20px;
+    left: 20px;
+}
+/* sticky */
+.sticky_outer{
+ height: 400px;
+  width: 600px;
+  border: 2px solid black;
+  text-align: center;
+  position: sticky;
+  top: 0px;
+}
+
+.sticky_outer >nav>a{
+     text-decoration: none;
+  font-size: 1.5rem;
+  padding: 15px;
+  color: gold;
+  height: 100px;
+  width: 500px;
+  background: lightcoral;
+}
