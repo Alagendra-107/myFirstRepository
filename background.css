@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    /* border: 3px solid brown; */
+    background-image:linear-gradient(red black );
+
+   
+} */
+/* .img{
+    height: 500px;
+    width: 500px;
+    background-image: url(./anime-boy-with-peace-sign-front-blue-sky-generative-ai_958192-91158.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+
+/* .img{
+} */
