@@ -12,25 +12,25 @@ body{
 .parent{
     border: 2px solid blueviolet;
     display: grid;
-   
-    grid-template-columns: 100px 200px 300px;  /* (or)----> grid-auto-columns */
-    grid-template-rows: 200px 200px; /* (or)grid-auto-rows */
+  
+    grid-template-columns: 100px 200px 300px;   /* --->(or)grid-auto-columns */
+    grid-template-rows: 200px 200px;   ---> (or)grid-auto-rows
     gap: 1em;
     grid-template-areas: 
     "box1 box1 box2 "
      "box1 box1 box4  " 
-     /* "box4 box5 box5"; */
+
 
 }
-/* .box{
+.box{
     border: 2px solid brown;
     height: 150px;
     width:150px;
     background-color: blueviolet;
-} */
-/* #box1{
+} x
+ #box1{
     grid-area: "box1";
-} */
+}
 
 .box{
     background-color: blue;
